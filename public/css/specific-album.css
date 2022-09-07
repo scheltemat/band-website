@@ -1,0 +1,59 @@
+
+body{
+    background-color: black;
+    color: white;
+    height: fit-content;
+}
+.nav{
+    margin-top: 1%;
+}
+.nav-link{
+    color: white;
+    font-size: 90%;
+}
+.nav-link:hover{
+    color: grey
+}
+
+
+.album-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: fit-content;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+.album-info img{
+    box-shadow: 0px 0px 30px rgb(159, 159, 159);
+}
+.tracklist{
+    padding: 0% 5% 0% 5%;
+    height: fit-content
+}
+.description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+}
+.embed-album{
+    margin: 5%;
+}
+
+@media only screen and (max-width: 650px) {
+    .album-info{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-around;
+        align-items: center; */
+        height: fit-content;
+        margin-top: 10%;
+        margin-left: 5%;
+    }
+    .tracklist{
+        padding: 0% 5% 0% 5%;
+        margin-top: 5%;
+        height: fit-content
+    }
+}

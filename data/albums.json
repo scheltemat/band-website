@@ -1,0 +1,43 @@
+{
+    "albums": [{
+        "name": "The 1975",
+        "shortname": "the1975",
+        "albumname" : "The 1975",
+        "summary" : "The 1975 is the debut studio album by English rock band the 1975. It was released on 2 September 2013 through Dirty Hit and Polydor. It was recorded with a record producer Mike Crossey. Between Autumn 2012 and Spring 2013, during which time the album was recorded, the band released four EPs.",
+        "artwork": ["the1975.jpeg"],
+        "tracklist": "1. The 1975<br>2. The City<br>3. M.O.N.E.Y.<br>4. Chocolate<br>5. Sex<br>6. Talk!<br>7. An Encounter<br>8. Heart Out<br>9. Settle Down<br>10. Robbers<br>11. Girls<br>12. 12<br>13. She Way Out<br>14. Menswear<br>15. Pressure<br>16. Is The Sombebody Who Can Watch You",
+        "spotify": "https://open.spotify.com/embed/album/0mkOUedmYlOzCC4tOm2v0c?utm_source=generator"
+    },{
+        "name": "The 1975",
+        "shortname": "I_like_it_when_you_sleep",
+        "albumname" : "I like it when you sleep, for you are so beautiful yet so unaware of it",
+        "summary": "I Like It When You Sleep, for You Are So Beautiful yet So Unaware of It is the second studio album by English rock band the 1975, released on 26 February 2016 through Dirty Hit and Polydor.",
+        "artwork": ["ILIWYS.jpeg"],
+        "tracklist": "1. The 1975<br>2. Love Me<br>3. UGH!<br>4. A Change Of Heart<br>5. She's American<br>6. If I Believe You<br>7. Please Be Naked<br>8. Lostmyhead<br>9. The Ballad Of Me And My Brain<br>10. Somebody Else<br>11. Loving Someone<br>12. I like it when you sleep, for you are so beautiful yet so unaware of it<br>13. The Sound<br>14. This Must Be My Dream<br>15. Paris<br>16. Nana<br>17. She Lays Down",
+        "spotify": "https://open.spotify.com/embed/album/1JFmNyVPdBF1ECvv4fhpW4?utm_source=generator"
+    },{
+        "name": "The 1975",
+        "shortname": "DH00278",
+        "albumname" : "DH00278 (Live from the O2, London. 16.12.16",
+        "summary": "DH00278 (Live From The O2, London. 16.12. 16) is a live album consisting of the recordings of The 1975's December 16, 2016, performance at The O2. It was released on December 15, 2017, nearly a year after the entirety of the footage from the show was posted on YouTube for Christmas 2016.",
+        "artwork": ["DH.webp"],
+        "tracklist": "",
+        "spotify": "https://open.spotify.com/embed/album/4BjDDZlAEmOcwk93K3xANV?utm_source=generator"
+    },{
+        "name": "The 1975",
+        "shortname": "A_Brief_Query",
+        "albumname" : "A Brief Query Into Online Relationships",
+        "summary": "A Brief Inquiry into Online Relationships is the third studio album by English band the 1975. It was released on 30 November 2018 by Dirty Hit and Polydor Records. Initially titled Music for Cars, the album was intended as the follow-up to I Like It When You Sleep, for You Are So Beautiful yet So Unaware of It.",
+        "artwork" : ["query.jpeg"],
+        "tracklist": "1. The 1975<br>2. Give Yourself A Try<br>3. TOOTIMETOOTIMETOOTIME<br>4. How To Draw / Petrichor<br>5. Love It If We Made It<br>6. Be My Mistake<br>7. Sincerity Is Scary<br>8. I like America & America Likes Me<br>9. The Man Who Married A Robot / Love Theme<br>10. Inside Your Mind<br>11. It's Not Living (If It's Not With You)<br>12. Surrounded By Heads And Bodies<br>13. Mine<br>14. I Couldn't Be More In Love<br>15. I Always Wanna Die (Sometimes)",
+        "spotify": "https://open.spotify.com/embed/album/6PWXKiakqhI17mTYM4y6oY?utm_source=generator"
+    },{
+        "name": "The 1975",
+        "shortname": "Notes",
+        "albumname" : "Notes On A Conditional Form",
+        "summary": "Notes on a Conditional Form is the fourth studio album by English band the 1975. It was released on 22 May 2020 by Dirty Hit and Polydor Records. Initially titled Music for Cars, the album was intended as the follow-up to I Like It When You Sleep, for You Are So Beautiful yet So Unaware of It.",
+        "artwork" : ["notes.jpeg"],
+        "tracklist": "1. The 1975<br>2. People<br>3. The End (Music For Cars)<br>4. Frail State Of Mind<br>5. Streaming<br>6. The Birthday Party<br>7. Yeah I Know<br>8. Then Because She Goes<br>9. Jesus Christ 2005 God Bless America<br>10. Roadkill<br>11. Me & You Together Song<br>12. I Think There's Something You Should Know<br>13. Nothing Revealed / Everything Denied<br>14. Tonight (I Wish I Was Your Boy)<br>15. Shiny Collarbone<br>16. If You're Too Shy (Let Me Know)<br>17. Playing On My Mind<br>18. Having No Head<br>19. What Should I Say<br>20. Bagsy Not In Net<br>21. Don't Worry<br>22. Guys",
+        "spotify": "https://open.spotify.com/embed/album/0o5xjCboti8vXhdoUG9LYi?utm_source=generator"
+    }]
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE1975 - Albums - <%= album[0].albumname %> </title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js">
+
+    <link rel="stylesheet" href="/css/specific-album.css">
+
+    <!-- social media icons -->
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</head>
+<body>
+
+    <ul class="nav justify-content-start">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/albums">Back</a>
+        </li>
+    </ul>
+
+    <div class="album-info">
+
+        <img src="/images/<%= album[0].artwork %>" alt="" width="300px">
+        
+        <div class="tracklist"><%= album[0].summary %>  </div>
+        
+    </div>
+
+    <!-- <div class="description">
+        <%= album[0].summary %> 
+    </div> -->
+
+    <div class="embed-album">
+        <iframe style="border-radius:12px" src="<%= album[0].spotify %> " width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+    </div>
+
+</body>
+</html>

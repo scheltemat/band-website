@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+    color: white;
+    height: fit-content;
+    margin-top: 2%;
+}
+.nav{
+    margin-top: 10px;
+}
+.nav-link{
+    color: white;
+    font-size: 90%;
+}
+.nav-link:hover{
+    color: grey
+}
+.container{
+    margin-top: 5%;
+}
+
+
+
+.chat-display {
+    min-height: 150px;
+    max-height: 40vh;
+    overflow: scroll;
+    font-size: 1.2em;
+}
+.chat-display p {
+    font-size: .9em;
+    padding: 0 10px;
+}
+.form-group{
+    margin-bottom: 2%;
+}
+#chat-message{
+    margin-right: 10px;
+    border-radius: 5px;
+}
+#chat-submit{
+    background-color: #f9bec6;
+}
+

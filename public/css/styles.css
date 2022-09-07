@@ -1,0 +1,112 @@
+
+body{
+    background-color: black;
+    color: white
+}
+
+/* header styles */
+
+.header{
+    position: relative;
+    display: flex;
+}
+.headerText{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    color: white;
+}
+h1{
+    font-size: 60px;
+    text-align: center;
+}
+@media only screen and (min-width: 1200px) {
+    .headerText{
+        position: absolute;
+        top: 50%;
+        left: 42%;
+        color: white;
+    }
+}
+@media only screen and (max-width: 850px) {
+    h1{
+        font-size: 40px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    h1{
+        font-size: 30px;
+    }
+    .listen-to h2{
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    h1{
+        font-size: 25px;
+    }
+}
+
+
+/* navbar styles */
+
+.nav{
+    background-color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.nav-link{
+    color: white;
+    font-size: 90%;
+}
+.nav-link:hover{
+    color: grey
+}
+
+/* video styles */
+
+.video-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.video-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 40px;
+    margin-bottom: 20px;
+}
+.listen-to h2{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 2%;
+}
+.listen-to p{
+    text-align: center;
+    margin: 0%;
+}
+.listen-to-links{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.listen-to-links a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+.listen-to-links a:hover{
+    text-decoration: underline;
+}
+
+/* footer styles */
+
+.footer{
+    text-align: center;
+    margin-bottom: 10%;
+}
+.social-icon{
+    padding: 1%;
+    color: white;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE1975 - Albums</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js">
+
+    <link rel="stylesheet" href="/css/albums.css">
+
+    <!-- social media icons -->
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</head>
+<body>
+
+    <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/forum">Forum</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/chat">Chat</a>
+        </li>
+    </ul>
+
+    <div class="album-container">
+
+
+        <% for( let index = 0; index < albumArr.length; index++ ) { %>
+            <a href="/albums/<%= albumArr[index].shortname %> "><img src="/images/<%= albumArr[index].artwork %> " alt="" width="250px"></a>
+        <% } %>
+
+
+    </div>
+    
+</body>
+</html>
