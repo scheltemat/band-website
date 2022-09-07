@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const socket = require('socket.io');
 
-let port = 6900;
+let port = process.env.PORT || 6900;
 
 
 app.use(express.json())
